@@ -7,8 +7,8 @@ def binary_search(arr:list, item:int):
     high = len(arr)-1
 
     while low <= high:
-        mid = (low+high)//2
-        guess = arr[mid]
+        mid = (low+high)//2 # индекс среднего 
+        guess = arr[mid]   # значение среднего 
         if guess == item:
             return mid
         if guess > item:
