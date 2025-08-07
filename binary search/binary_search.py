@@ -17,4 +17,4 @@ def binary_search(arr:list, item:int):
             low = mid + 1 # среднее меньше чем искомый элеметнт отбрасываем все что слева от среднего(mid) и ищем там 
     return None
 
-print(binary_search(arr,-3))
+print(binary_search(arr,2))
